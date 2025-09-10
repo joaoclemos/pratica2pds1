@@ -6,12 +6,3 @@ float cauchy(float x){
     resultado = 1.0/(3.141592*(1.0+x*x));
     return resultado;
 }
-
-int main() {
-    float x;
-    float valor;
-    scanf("%f", &x);
-    valor = cauchy(x);
-    printf("%.2f\n", valor);
-    return 0;
-}
