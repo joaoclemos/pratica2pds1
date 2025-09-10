@@ -3,7 +3,7 @@
 
 float cauchy(float x){
     float resultado;
-    resultado = 1.0/(M_PI*(1+x*x));
+    resultado = 1.0/(M_PI*(1.0+x*x));
     return resultado;
 }
 
@@ -12,6 +12,8 @@ int main() {
     float valor;
     scanf("%f", &x);
     valor = cauchy(x);
-    printf("%.2f", valor);
+
+    printf("%.2f\n", valor);
+
     return 0;
 }
