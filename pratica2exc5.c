@@ -1,5 +1,5 @@
 #include <stdio.h>
 
-float parteInteira(int x) {
+float parteInteira(float x) {
     return (float)((int)x);
 }
